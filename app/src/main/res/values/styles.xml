@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#7367EF</item>
+        <item name="colorPrimaryDark">#7367EF</item>
+        <item name="colorAccent">#7367EF</item>
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+    </style>
+
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="elevationOverlayColor">#ff0000</item>
+    </style>
+
+</resources>
